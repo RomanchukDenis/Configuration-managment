@@ -52,4 +52,45 @@ id=$(grep -o -E '\b[a-zA-Z]*\b' "$file" | sort -u)
 grep -oE '\b[a-zA-Z_][a-zA-Z0-9_]*\b' hello.c | grep -vE '\b(int|void|return|if|else|for|while|include|stdio)\b' | sort | uniq
 ```
 ### Вывод
+<img width="1123" alt="image" src="https://github.com/user-attachments/assets/624be27c-fae5-4194-91cb-bda889a4c2a7">
+
+## Задача 5: Написать программу для реализации пользовательской команды
+
+### Код
+```
+#!/bin/bash
+
+if [ "$#" -ne 1 ]; then
+	echo "Используйте: $0 имя команды."
+	exit 1
+fi
+
+command_name="$1"
+command_path="./$command_name"
+
+if [ ! -f "$command_path" ]; then
+	echo "Ошибка: файл '$command_path' не найден."
+	exit 1
+fi
+
+sudo chmod +x "$command_name"
+sudo cp "$command_path" /usr/local/bin/
+
+if [ $? -ne 0 ]; then
+	echo "Ошибка: не удалось скопировать файл."
+	exit 1
+fi
+
+sudo chmod 775 /usr/local/bin/"$command_name"
+
+if [ $? -ne 0 ]; then
+	echo "Ошибка: не удалось установить права для '$command_name'."
+	exit 1
+fi
+
+echo "Команда '$command_name' успешно зарегестрирована."
+```
+
+### Вывод
+<img width="810" alt="image" src="https://github.com/user-attachments/assets/d16cc840-c9c8-4973-ab82-5f6d5a4dce24">
 
