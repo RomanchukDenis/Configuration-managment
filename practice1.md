@@ -6,4 +6,4 @@
 grep '^[^:]*' /etc/passwd | cut -d: -f1 | sort
 ```
 #### Вывод
-![image]<img width="603" alt="image" src="https://github.com/user-attachments/assets/e0a448f5-3d0e-4e3b-8459-26bb7a1cc812">
+<img width="603" alt="image" src="https://github.com/user-attachments/assets/e0a448f5-3d0e-4e3b-8459-26bb7a1cc812">
