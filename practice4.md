@@ -46,13 +46,13 @@ nano prog.py
 ```
 > print("Hellow, world!")
 ```
-Андрей@DESKTOP-5SQ3AFE MINGW64 ~
+Денис@DESKTOP-5SQ3AFE MINGW64 ~
 $  cd D:\my_project
 
-Андрей@DESKTOP-5SQ3AFE MINGW64 /d/my_project (master)
+Денис@DESKTOP-5SQ3AFE MINGW64 /d/my_project (master)
 $ nano prog.py
 
-Андрей@DESKTOP-5SQ3AFE MINGW64 /d/my_project (master)
+Денис@DESKTOP-5SQ3AFE MINGW64 /d/my_project (master)
 $ git status
 On branch master
 
@@ -64,11 +64,11 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 
-Андрей@DESKTOP-5SQ3AFE MINGW64 /d/my_project (master)
+Денис@DESKTOP-5SQ3AFE MINGW64 /d/my_project (master)
 $ git add prog.py
 warning: in the working copy of 'prog.py', LF will be replaced by CRLF the next time Git touches it
 
-Андрей@DESKTOP-5SQ3AFE MINGW64 /d/my_project (master)
+Денис@DESKTOP-5SQ3AFE MINGW64 /d/my_project (master)
 $ git status
 On branch master
 
@@ -79,7 +79,7 @@ Changes to be committed:
         new file:   prog.py
 
 
-Андрей@DESKTOP-5SQ3AFE MINGW64 /d/my_project (master)
+Денис@DESKTOP-5SQ3AFE MINGW64 /d/my_project (master)
 $ git commit -m "First program"
 [master (root-commit) 5fd8c7c] First program
  1 file changed, 1 insertion(+)
