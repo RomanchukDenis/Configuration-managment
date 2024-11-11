@@ -40,8 +40,8 @@ $ mkdir my_project
 $ cd my_project
 $ git init
 Initialized empty Git repository in D:\my_project
-$ git config user.name "CH_1"
-$ git config user.email "CH_1@yandex.ru"
+$ git config user.name "PC_1"
+$ git config user.email "PC_1@yandex.ru"
 nano prog.py
 ```
 > print("Hellow, world!")
