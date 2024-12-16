@@ -28,6 +28,7 @@ commit_dependencies.png - Cоставленный граф
 
 test_git_mermaid_dep.py - Тесты программы
 
+test-config.zip - Тестовый репозиторий для анализа
 
 # Запуск программы
 
