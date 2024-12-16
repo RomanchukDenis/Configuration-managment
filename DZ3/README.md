@@ -73,10 +73,6 @@ BD_configuration.txt -  Входной текст из стандартного 
 python3 config_parser.py
 ```
 
-# Вывод программы
-
-<img width="546" alt="image" src="https://github.com/user-attachments/assets/91a7427d-4c9c-493f-a249-2b74c94cc293" />
-
 
 # Тесты программы
 Все тесты прописаны в файле test_config_parser.py
