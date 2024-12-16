@@ -43,6 +43,11 @@ git clone https://github.com/RomanchukDenis/test-config
 python3 git_mermaid_dep.py config.yaml
 ~~~
 
+# Вывод программы
+
+<img width="409" alt="image" src="https://github.com/user-attachments/assets/53478772-9e51-4cb7-941a-acb41e5962e8" />
+
+
 # Тесты программы
 Все тесты прописаны в файле test_git_mermaid_dep.py
 
