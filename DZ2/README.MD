@@ -46,3 +46,13 @@ python3 git_mermaid_dep.py config.yaml
 pytest test_git_mermaid_dep.py
 ```
 Результаты тестирования:
+denisromanchuk@MacBook-Pro-70 Домашнее задание №2 % pytest test_git_mermaid_dep.py
+============================= test session starts ==============================
+platform darwin -- Python 3.11.4, pytest-8.3.3, pluggy-1.5.0
+rootdir: /Users/denisromanchuk/Documents/Mirea/Конфигурационное управление/Домашнее задание №2
+plugins: mock-3.14.0
+collected 3 items                                                              
+
+test_git_mermaid_dep.py ...                                              [100%]
+
+============================== 3 passed in 0.02s ===============================
