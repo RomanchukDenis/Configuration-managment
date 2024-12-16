@@ -46,5 +46,3 @@ python3 git_mermaid_dep.py config.yaml
 pytest test_git_mermaid_dep.py
 ```
 Результаты тестирования:
-
-![image](https://github.com/user-attachments/assets/f3a0c338-b3d0-4d23-8f4e-df4d7c657c8c)
