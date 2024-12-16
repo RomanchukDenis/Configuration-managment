@@ -46,3 +46,4 @@ python3 git_mermaid_dep.py config.yaml
 pytest test_git_mermaid_dep.py
 ```
 Результаты тестирования:
+
