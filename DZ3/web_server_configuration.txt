@@ -1,0 +1,7 @@
+-- Конфигурация веб-сервера
+var port := 8080;
+var host := "localhost";
+begin
+    document_root := "/var/www/html";
+    max_clients := 100;
+end

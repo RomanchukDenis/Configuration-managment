@@ -1,0 +1,7 @@
+-- Настройки базы данных
+var db_name := "test_db";
+var max_connections := 20;
+begin
+    user := "admin";
+    password := "secret";
+end
